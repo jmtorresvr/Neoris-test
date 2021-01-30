@@ -1,0 +1,6 @@
+let prueba1 = sessionStorage.getItem('prueba1');
+
+let prueba1Array = JSON.parse(prueba1);
+
+prueba1Array.users.forEach((user) => { console.log(`${user.name} ${user.surname}`)});
+
