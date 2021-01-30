@@ -4,3 +4,18 @@ let prueba1Array = JSON.parse(prueba1);
 
 prueba1Array.users.forEach((user) => { console.log(`${user.name} ${user.surname}`)});
 
+
+
+------------
+Con este método findIndex() devuelve el indice del primer elemento del array
+que cumpla con la condición establecida.
+
+El while en cambio itera todos los elementos del array. 
+
+var firsPositivePosition = numberArray.findIndex((element) => element > 0);
+
+---------------------
+
+
+
+
